@@ -1,0 +1,150 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="animate__animated animate__bounce">Company Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeIn">Welcome to Our Company</h2>
+                <p>Your tagline or brief introduction goes here.</p>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeInLeft">About Us</h2>
+                <p>Information about your company.</p>
+            </div>
+        </section>
+        <section id="services">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeInRight">Our Services</h2>
+                <div class="services">
+                    <div class="service-item animate__animated animate__zoomIn">
+                        <h3>Service 1</h3>
+                        <p>Description of service 1.</p>
+                    </div>
+                    <div class="service-item animate__animated animate__zoomIn">
+                        <h3>Service 2</h3>
+                        <p>Description of service 2.</p>
+                    </div>
+                    <div class="service-item animate__animated animate__zoomIn">
+                        <h3>Service 3</h3>
+                        <p>Description of service 3.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Company Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Project Connector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Student Project Connector</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#messages">Messages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Welcome to the Student Project Connector</h2>
+                <p>Find and connect with fellow students for your next project.</p>
+            </div>
+        </section>
+        <section id="profile">
+            <div class="container">
+                <h2>Create Your Profile</h2>
+                <form id="profileForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="skills">Skills:</label>
+                    <input type="text" id="skills" name="skills">
+                    <label for="department">Department:</label>
+                    <input type="text" id="department" name="department">
+                    <label for="interests">Interests:</label>
+                    <input type="text" id="interests" name="interests">
+                    <button type="submit">Save Profile</button>
+                </form>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <h2>Project Listings</h2>
+                <div id="projectList">
+                    <!-- Project listings will go here -->
+                </div>
+                <button id="addProjectBtn">Post a Project</button>
+                <form id="projectForm" style="display:none;">
+                    <label for="projectTitle">Project Title:</label>
+                    <input type="text" id="projectTitle" name="projectTitle">
+                    <label for="projectDescription">Description:</label>
+                    <textarea id="projectDescription" name="projectDescription"></textarea>
+                    <label for="requiredSkills">Required Skills:</label>
+                    <input type="text" id="requiredSkills" name="requiredSkills">
+                    <button type="submit">Post Project</button>
+                </form>
+            </div>
+        </section>
+        <section id="messages">
+            <div class="container">
+                <h2>Messages</h2>
+                <div id="messageList">
+                    <!-- Messages will go here -->
+                </div>
+                <form id="messageForm">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Student Project Connector. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
